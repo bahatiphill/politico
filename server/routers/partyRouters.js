@@ -1,6 +1,6 @@
 import express from "express";
 
-partiesRoutes = express.Router();
+const partiesRoutes = express.Router();
 
 //Get all parties
 partiesRoutes.get("/parties");

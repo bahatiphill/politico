@@ -10,6 +10,9 @@ app.use("/api/v1", partiesRoutes);
 app.use("/api/v1", officesRoutes);
 app.use("/api/v1", usersRoutes);
 
+app.get("/", (req, res) => {
+  res.send("politico");
+});
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log("Server running");

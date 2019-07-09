@@ -1,6 +1,6 @@
 import express from "express";
 
-officesRoutes = express.Router();
+const officesRoutes = express.Router();
 
 //Get all offices
 officesRoutes.get("/offices", (req, res) => {});

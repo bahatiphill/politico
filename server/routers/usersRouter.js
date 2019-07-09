@@ -1,6 +1,6 @@
 import express from "express";
 
-usersRoutes = express.Router();
+const usersRoutes = express.Router();
 
 //log in
 usersRoutes.post("/auth/signin", (req, res) => {});
